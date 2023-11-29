@@ -74,6 +74,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 
 .bg-car2{
@@ -85,6 +86,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 
 .bg-car3{
@@ -95,7 +97,8 @@
     ),url(imagenes/tapiceria.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    object-fit: cover;
 }
 
 .box-icons i{
@@ -170,4 +173,33 @@
         margin-bottom: 30px;
     }
 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff; /* Cambio de color de fondo a blanco */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.card h2 {
+    color: #4C4C4C;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #7F7F7F;
+    line-height: 1.5;
 }
